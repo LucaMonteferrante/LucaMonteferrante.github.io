@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+.title {
+	white-space: normal;
+	word-wrap: break-word;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -4687,3 +4692,11 @@ input, select, textarea {
 		}
 
 	}
+	@media (max-width: 600px) {
+		#intro h1 {
+		  font-size: 2.5rem;
+		  line-height: 1.1;
+		}
+	  }
+	  
+  
